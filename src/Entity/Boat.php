@@ -102,7 +102,7 @@ class Boat
      * @var bool
      */
     protected $enabled;
-    
+
     /**
      * Is the boat enabled (published)?
      *
@@ -112,7 +112,7 @@ class Boat
     {
         return $this->enabled;
     }
-    
+
     /**
      * Is the boat enabled (published)?
      *
@@ -123,10 +123,10 @@ class Boat
     public function setIsEnabled($value)
     {
         $this->enabled = (bool) $value;
-        
+
         return $this;
     }
-    
+
     /**
      * The boat length.
      *
