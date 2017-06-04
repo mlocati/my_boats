@@ -3,9 +3,6 @@
 namespace MyBoats\Search\Results;
 
 use Concrete\Core\Search\Result\Result as SearchResult;
-use Concrete\Core\Support\Facade\Application;
-use Doctrine\ORM\EntityManager;
-use MyBoats\Entity\Boat as BoatEntity;
 use Pagerfanta\View\TwitterBootstrap3View;
 
 /**
@@ -14,27 +11,20 @@ use Pagerfanta\View\TwitterBootstrap3View;
 class Boats extends SearchResult
 {
     /**
-     * @var EntityManager|null
+     * {@inheritdoc}
+     *
+     * @see \Concrete\Core\Search\Result\Result::getItemDetails()
      */
-    private $entityManager;
-
-    /**
-     * @return EntityManager
-     */
-    private function getEntityManager()
-    {
-        if ($this->entityManager === null) {
-            $this->entityManager = Application::getFacadeApplication()->make(EntityManager::class);
-        }
-
-        return $this->entityManager;
-    }
-
     public function getItemDetails($boat)
     {
         return new Item\Boats($this, $this->listColumns, $boat);
     }
 
+    /**
+     * Builds the HTML to be used to control the pagination.
+     *
+     * @return string
+     */
     public function getPaginationHTML()
     {
         if ($this->pagination->haveToPaginate()) {
