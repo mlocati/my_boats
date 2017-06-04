@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: my_boats 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2017-06-03T17:15:42+02:00\n"
+"PO-Revision-Date: 2017-06-03T17:15:42+02:00\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: packages/my_boats/install.xml:5
+msgid "Boats"
+msgstr ""
+
+#: packages/my_boats/install.xml:7
+msgid "Boat"
+msgstr ""
+
+#: packages/my_boats/controller.php:54
+msgid "My Boats"
+msgstr ""
+
+#: packages/my_boats/controller.php:64
+msgid "Sample package to show the power of ItemLists"
+msgstr ""
+
+#: packages/my_boats/controllers/single_page/dashboard/boats/details.php:25
+#: packages/my_boats/controllers/single_page/dashboard/boats/details.php:99
+msgid "Unable to find the specified institution."
+msgstr ""
+
+#: packages/my_boats/controllers/single_page/dashboard/boats/details.php:41
+msgid "Unable to find the specified boat."
+msgstr ""
+
+#: packages/my_boats/controllers/single_page/dashboard/boats/details.php:56
+msgid "Please specify the name of the boat."
+msgstr ""
+
+#: packages/my_boats/controllers/single_page/dashboard/boats/details.php:66
+msgid "Invalid boat length specified."
+msgstr ""
+
+#: packages/my_boats/controllers/single_page/dashboard/boats/details.php:75
+msgid "The new boat has been added."
+msgstr ""
+
+#: packages/my_boats/controllers/single_page/dashboard/boats/details.php:75
+msgid "The boat has been updated."
+msgstr ""
+
+#: packages/my_boats/controllers/single_page/dashboard/boats/details.php:101
+msgid "The boat has been deleted."
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:23
+#: packages/my_boats/single_pages/dashboard/boats.php:32
+#: packages/my_boats/src/Search/Columns/Sets/Boats.php:20
+msgid "Name"
+msgstr "Nom"
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:30
+#: packages/my_boats/src/Search/Columns/Sets/Boats.php:26
+msgid "Length"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:35
+#: packages/my_boats/single_pages/dashboard/boats/details.php:59
+msgid "Cancel"
+msgstr "Annuler"
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:40
+#: packages/my_boats/single_pages/dashboard/boats/details.php:60
+msgid "Delete"
+msgstr "Supprimer"
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:44
+msgid "Create"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:44
+msgid "Save"
+msgstr "Enregistrer"
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:55
+msgid "Are you sure you want to permanently delete this boat?"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:56
+msgid "WARNING: this operation can not be undone!"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:72
+msgid "Removal confirmation"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats.php:24
+msgid "Add institution"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats.php:40
+msgid "Items per page"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats.php:48
+msgid "Search"
+msgstr "Rechercher"
+
+#: packages/my_boats/single_pages/dashboard/boats.php:58
+msgid "No institutions found."
+msgstr ""
+
+#: packages/my_boats/src/Search/Results/Boats.php:54
+msgctxt "Pagination"
+msgid "&larr; Previous"
+msgstr "&larr; Précédent"
+
+#: packages/my_boats/src/Search/Results/Boats.php:55
+msgctxt "Pagination"
+msgid "Next &rarr;"
+msgstr "Suivant &rarr;"
+
+#: packages/my_boats/src/Search/Results/Boats.php:56
+msgctxt "Pagination"
+msgid "(current)"
+msgstr "(actuel)"

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+
+    <singlepages>
+        <page package="my_boats" name="Boats" description="" pagetype="" path="/dashboard/boats" filename="/dashboard/boats.php">
+        </page>
+        <page package="my_boats" name="Boat" description="" pagetype="" path="/dashboard/boats/details" filename="/dashboard/boats/details.php">
+            <attributes>
+                <attributekey handle="exclude_nav"><value>1</value></attributekey>
+            </attributes>
+        </page>
+    </singlepages>
+
+</concrete5-cif>

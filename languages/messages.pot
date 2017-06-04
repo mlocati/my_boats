@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: my_boats 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2017-06-04T19:24:06+02:00\n"
+"PO-Revision-Date: 2017-06-04T19:24:06+02:00\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: packages/my_boats/install.xml:5
+msgid "Boats"
+msgstr ""
+
+#: packages/my_boats/install.xml:7
+msgid "Boat"
+msgstr ""
+
+#: packages/my_boats/controller.php:54
+msgid "My Boats"
+msgstr ""
+
+#: packages/my_boats/controller.php:64
+msgid "Sample package to show the power of ItemLists"
+msgstr ""
+
+#: packages/my_boats/controllers/single_page/dashboard/boats/details.php:25
+#: packages/my_boats/controllers/single_page/dashboard/boats/details.php:41
+#: packages/my_boats/controllers/single_page/dashboard/boats/details.php:105
+msgid "Unable to find the specified boat."
+msgstr ""
+
+#: packages/my_boats/controllers/single_page/dashboard/boats/details.php:56
+msgid "Please specify the name of the boat."
+msgstr ""
+
+#: packages/my_boats/controllers/single_page/dashboard/boats/details.php:64
+msgid "Please specify if the boat is enabled."
+msgstr ""
+
+#: packages/my_boats/controllers/single_page/dashboard/boats/details.php:72
+msgid "Invalid boat length specified."
+msgstr ""
+
+#: packages/my_boats/controllers/single_page/dashboard/boats/details.php:81
+msgid "The new boat has been added."
+msgstr ""
+
+#: packages/my_boats/controllers/single_page/dashboard/boats/details.php:81
+msgid "The boat has been updated."
+msgstr ""
+
+#: packages/my_boats/controllers/single_page/dashboard/boats/details.php:107
+msgid "The boat has been deleted."
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:23
+#: packages/my_boats/single_pages/dashboard/boats.php:33
+#: packages/my_boats/src/Search/Columns/Sets/Boats.php:21
+msgid "Name"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:30
+msgctxt "Boat"
+msgid "Enabled/active"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:32
+msgctxt "Boat"
+msgid "Enabled (published)"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:35
+msgctxt "Boat"
+msgid "Disabled (not published)"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:39
+#: packages/my_boats/src/Search/Columns/Sets/Boats.php:33
+msgid "Length"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:44
+#: packages/my_boats/single_pages/dashboard/boats/details.php:68
+msgid "Cancel"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:49
+#: packages/my_boats/single_pages/dashboard/boats/details.php:69
+msgid "Delete"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:53
+msgid "Create"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:53
+msgid "Save"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:64
+msgid "Are you sure you want to permanently delete this boat?"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:65
+msgid "WARNING: this operation can not be undone!"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats/details.php:81
+msgid "Removal confirmation"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats.php:25
+msgid "Add boat"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats.php:41
+msgid "Enabled"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats.php:43
+#: packages/my_boats/src/Search/Columns/YesNoColumn.php:24
+msgid "Yes"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats.php:43
+#: packages/my_boats/src/Search/Columns/YesNoColumn.php:24
+msgid "No"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats.php:49
+msgid "Items per page"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats.php:57
+msgid "Search"
+msgstr ""
+
+#: packages/my_boats/single_pages/dashboard/boats.php:67
+msgid "No boats found."
+msgstr ""
+
+#: packages/my_boats/src/Search/Columns/Sets/Boats.php:27
+msgctxt "Boat"
+msgid "Enabled"
+msgstr ""
+
+#: packages/my_boats/src/Search/Results/Boats.php:54
+msgctxt "Pagination"
+msgid "&larr; Previous"
+msgstr ""
+
+#: packages/my_boats/src/Search/Results/Boats.php:55
+msgctxt "Pagination"
+msgid "Next &rarr;"
+msgstr ""
+
+#: packages/my_boats/src/Search/Results/Boats.php:56
+msgctxt "Pagination"
+msgid "(current)"
+msgstr ""
